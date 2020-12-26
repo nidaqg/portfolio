@@ -17,7 +17,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <section class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <section class="navbar-nav">
                   <a class="nav-link" href="#">Home</a>
                   <a class="nav-link" href="#">Portfolio</a>
@@ -29,11 +29,44 @@
     </header>
 
    <main class="container-fluid">
+       <section class="row mt-3 mb-3">
+          <section class="col-sm-12">
+             <!--Header image-->
+             <img src="assets/Contact.png" class="img-fluid w-100" alt="contact-me-page">
+           </section>
+        </section>
+   
 
-
-
-    
-   </main>
+        <section class="row justify-content-center">
+          <section class="col-sm-6">
+              <!--contact form wrapped within a card -->
+            <form class="card">
+             <section class="card-body">
+               <!--form input: Name-->
+                <section class="mb-3">
+                  <label for="Name" class="form-label">Name</label>
+                  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </section>
+                 <!--form input: Email address-->
+                <section class="mb-3">
+                  <label for="Email-address" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </section>
+                <!--form input: Message content-->
+                <section class="mb-3">
+                  <label for="message-text" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="6"></textarea>
+                </section>
+                <!--form submit button-->
+                <section class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button type="button" class="btn btn-outline-secondary">Submit</button>
+                </section>
+             </section>  
+            </form>
+            <!--form ends here-->
+          </section>
+        </section>
+     </main>
 
 
 
