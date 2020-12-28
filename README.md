@@ -11,6 +11,7 @@ The following images show the UI of the finished website:
 
 
 Find below a link to the GitHub repository for the project:
+
 https://github.com/nidaqg/responsive-portfolio 
 
 
