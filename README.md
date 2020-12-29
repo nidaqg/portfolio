@@ -8,8 +8,10 @@ With the use of Bootstrap, I was able to create functional and responsive pages 
 The use of Bootstrap proved quite useful in the building of the webpage as it's predefined classes helped me achieve the visual look I was looking for without needing to add a separate CSS file. I also used Font Awesome to add social media icons to the footers. 
 
 The following images show the UI of the finished website:
-![About Me/Home Page](assets/about-me-demo.png)
+![About Me/Home Page](assets/home-page-demo.png)
+
 ![Portfolio Page](assets/portfolio-page-demo.png)
+
 ![Contact Me](assets/contact-me-demo.png)
 
 
