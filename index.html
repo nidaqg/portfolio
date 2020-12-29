@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/7af0740e69.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
     <header>
       <!--Navbar with links to other pages of the website.-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -28,11 +28,11 @@
                 </section>
               </section>
             </section>
-       </nav>
+        </nav>
     </header>
 
-    <main class="container-fluid bg-light">
-        <!--first of three rows, header image goes here-->
+    <main class="container-fluid bg-light flex-shrink-0">
+        <!--first of two rows, header image goes here-->
         <section class="row mt-3 mb-3">
           <section class="col-sm-12">
               <!--Header image-->
@@ -40,12 +40,12 @@
            </section>
          </section>
 
-         <!--second of three rows, image and bio go here-->
+         <!--second of two rows, image and bio go here-->
          <section class="row justify-content-center">
            <!--centered column with 1 nested row-->
             <section class="col-sm-6">
 
-              <!--Nested row with image and basic introduction-->
+              <!--Nested row with image and introduction-->
               <section class="row">
                 <section class="d-block clearfix">
                   <img src="assets/nida-ghuman.jpeg" class="img-fluid rounded float-start m-3" style="width: 200px;" alt="nida-ghuman">
@@ -57,9 +57,10 @@
 
            </section>
          </section>
+    </main>
 
-         <!--third of three rows, this is the footer-->
-         <footer class="row mt-3">
+         <!--Footer-->
+       <footer class="footer mt-auto py-2">
           <section class="card text-center text-white bg-dark">
              <section class="card-body">
               <h5 class="card-title">Connect on Social Media!</h5>
@@ -69,12 +70,7 @@
           </section>
        </footer>
 
-    </main>
-
-
-
-
-
+    
 
 </body>
 </html>
