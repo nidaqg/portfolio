@@ -9,15 +9,19 @@ The use of Bootstrap proved quite useful in the building of the webpage as it's 
 
 The following images show the UI of the finished website:
 
-![About Me/Home Page](assets/home-page-demo.png)
+![About Me/Home Page](assets/homepage-demo.png)
 
-![Portfolio Page](assets/portfolio-page-demo.png)
+![Portfolio Page](assets/portfolio-demo.png)
 
-![Contact Me](assets/contact-me-demo.png)
+![Contact Me](assets/contact-page-demo.png)
 
 
 Find below a link to the GitHub repository for the project:
 https://github.com/nidaqg/responsive-portfolio 
+
+Find below a link to deployed project:
+https://nidaqg.github.io/portfolio/
+
 
 
 
