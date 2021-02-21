@@ -9,6 +9,7 @@
     <link rel= "stylesheet" href="reset.css">
     <!--linking to Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script
        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
@@ -20,7 +21,7 @@
 <body class="d-flex flex-column h-100">
     <header>
       <!--Navbar with links to other pages of the website.-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark myColors">
             <section class="container-fluid">
               <a class="navbar-brand" href="index.html">Nida Ghuman</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavLinks" aria-controls="navbarNavLinks" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,8 +48,8 @@
 
               <!--Nested row with image and introduction-->
               <section class="row">
-                <section class="d-block clearfix">
-                  <img src="assets/nida-ghuman-2.jpeg" class="img-fluid rounded float-start mx-3" style="width: 200px;" alt="nida-ghuman">
+                <section class="d-block clearfix mt-4 mb-4">
+                  <img src="assets/nida-ghuman-2.jpeg" class="img-fluid rounded float-start mx-3 localCard" style="width: 200px;" alt="nida-ghuman">
                   <h5 class="text-center">Hello and Welcome!</h5>
                   <p>My name is Nida and I am a front-end web developer based in the Greater Philadelphia region of Pennsylvania. Like most people in this field, I came to be here by a curvy route and have worn many hats along the way. My background is in Cultural Anthropology and academics and I do not shy away from applying a multi-faceted approach to any project I take on. I am passionate about web development with a focus on turning creative vision into a coherent and sustainable reality by combining visually stunning UI, mobile-first technologies and agile software development.</p>
                   <p>Earning a full-stack web development certification from UPENN LPS coding BootCamp has facilitated the development of strong skills in HTML5, CSS3, Javascript, Bootstrap, jQuery and GitHub. Working multiple jobs throughout college as well as the fast-paced nature of the Coding Bootcamp has helped me hone my abilities in time management, teamwork and organization.</p> 
@@ -63,11 +64,11 @@
 
          <!--Footer-->
        <footer class="footer mt-auto py-2">
-          <section class="card text-center text-white bg-dark">
+          <section class="card text-center text-white myColors">
              <section class="card-body">
               <h5 class="card-title">Connect with Me</h5>
-              <a href="https://github.com/nidaqg"><i class="fab fa-github-square fa-3x" style="color: white;"></i></a>
-              <a href="https://www.linkedin.com/in/nida-ghuman-7b8a6b1ba/"><i class="fab fa-linkedin fa-3x" style="color: white;"></i></a>
+              <a href="https://github.com/nidaqg"><i class="fab fa-github-square fa-3x socialIcons mx-2" style="color: white;"></i></a>
+              <a href="https://www.linkedin.com/in/nida-ghuman-7b8a6b1ba/"><i class="fab fa-linkedin fa-3x socialIcons mx-2" style="color: white;"></i></a>
             </section>
           </section>
        </footer>

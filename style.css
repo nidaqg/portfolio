@@ -1,0 +1,25 @@
+.myBtn {
+    background-color: rgb(4, 4, 37);
+    color: white;
+    border-radius: 12px;
+}
+
+.myBtn:hover {
+    background-color: rgb(42, 86, 128);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.myColors {
+    background-color: rgb(4, 4, 37);
+}
+
+.localCard {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.socialIcons:hover {
+    box-shadow: 5px 5px 5px rgba(247, 244, 244, 0.466);
+
+}

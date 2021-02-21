@@ -9,6 +9,7 @@
     <link rel= "stylesheet" href="reset.css">
     <!--linking to Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
@@ -19,7 +20,7 @@
 
 <body class="d-flex flex-column h-100">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark myColors">
             <section class="container-fluid">
               <a class="navbar-brand" href="index.html">Nida Ghuman</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavLinks" aria-controls="navbarNavLinks" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,93 +43,53 @@
         <!--row: portfolio goes here within card group-->
         <section class="row row-cols-1 row-cols-lg-3 g-4 m-4">
           <section class="col">
-            <section class="card text-center h-100">
+            <section class="card text-center h-100 localCard">
               <img src="assets/cinefile-demo2.png" class="card-img-top h-50" alt="movie-database-project-demo">
               <section class="card-body">
                 <h5 class="card-title">CineFile: Movie DataBase</h5>
                 <p class="card-text">A browser-based application for searching for and saving movies the user wishes to watch. Application provides multiple ways to search for movies, displays relevant information as well as trailer of choosen movies and allows users to save any movie to a 'Watch List'. Application built as a group project using jQuery and 2 external APIs. Click to visit the GitHub repository or the launched page.</p>
-                <a href="https://github.com/burtk33/CineFile" class="btn btn-outline-secondary">Go to GitHub</a>
-                <a href="https://burtk33.github.io/CineFile/" class="btn btn-outline-secondary">Go to Page</a>
+                <a href="https://github.com/nidaqg/CineFile" class="btn myBtn">Go to GitHub</a>
+                <a href="https://burtk33.github.io/CineFile/" class="btn myBtn">Go to Page</a>
 
               </section>
             </section>
           </section>
 
           <section class="col">
-            <section class="card text-center h-100">
+            <section class="card text-center h-100 localCard">
               <img src="assets/weather-dashboard.png" class="card-img-top h-50" alt="weather-dashboard-demo">
               <section class="card-body">
                 <h5 class="card-title">Weather Dashboard</h5>
                 <p class="card-text">Browser-based application for searching for current as well as forecasted weather conditions for any given city. Application built using jQuery, Bootstrap, client side Local Storage and the Openweather API. Click to visit the GitHub repository or the launched page.</p>
-                <a href="https://github.com/nidaqg/weather-dashboard" class="btn btn-outline-secondary">Go to GitHub</a>
-                <a href="https://nidaqg.github.io/weather-dashboard/" class="btn btn-outline-secondary">Go to Page</a>
+                <a href="https://github.com/nidaqg/weather-dashboard" class="btn myBtn">Go to GitHub</a>
+                <a href="https://nidaqg.github.io/weather-dashboard/" class="btn myBtn">Go to Page</a>
 
               </section>
             </section>
           </section>
 
           <section class="col">
-            <section class="card text-center h-100">
+            <section class="card text-center h-100 localCard">
               <img src="assets/planner-demo.png" class="card-img-top h-50" alt="daily-planner-demo">
               <section class="card-body">
                 <h5 class="card-title">Daily Planner</h5>
                 <p class="card-text">A Daily Planner that allows users to input hourly to-do lists according to the time of day. Application built using jQuery, Luxon and Client side Local Storage Click to visit the GitHub repository or the launched page.</p>
-                <a href="https://github.com/nidaqg/daily-workday-planner" class="btn btn-outline-secondary">Go to GitHub</a>
-                <a href="https://nidaqg.github.io/daily-workday-planner/" class="btn btn-outline-secondary">Go to Page</a>
+                <a href="https://github.com/nidaqg/daily-workday-planner" class="btn myBtn">Go to GitHub</a>
+                <a href="https://nidaqg.github.io/daily-workday-planner/" class="btn myBtn">Go to Page</a>
 
               </section>
             </section>
           </section>
 
-<!--
-          <section class="col">
-            <section class="card text-center h-100">
-              <img src="assets/recipe-page.png" class="card-img-top h-50" alt="recipe-card-demo">
-              <section class="card-body">
-                <h5 class="card-title">Web Page</h5>
-                <p class="card-text">Simple design for a static recipe page using Bootstrap and linking to Instagram account. Click to visit the GitHub repository or the launched page</p>
-                <a href="https://github.com/nidaqg/RecipePage" class="btn btn-outline-secondary">Go to GitHub</a>
-                <a href="https://nidaqg.github.io/RecipePage/" class="btn btn-outline-secondary">Go to Page</a>
-
-              </section>
-            </section>
-          </section>
-
-          <section class="col">
-            <section class="card text-center h-100">
-              <img src="assets/horiseon-refactor.png" class="card-img-top h-50" alt="horiseon-refactor-demo">
-              <section class="card-body">
-                <h5 class="card-title">Web Page</h5>
-                <p class="card-text">Altered page HTML and CSS to improve accessibility for end user. Click to visit the GitHub repository or the launched page.</p>
-                <a href="https://github.com/nidaqg/refactor-horiseon" class="btn btn-outline-secondary">Go to GitHub</a>
-                <a href="https://nidaqg.github.io/refactor-horiseon/" class="btn btn-outline-secondary">Go to Page</a>
-
-              </section>
-            </section>
-          </section>
-
-          <section class="col">
-            <section class="card text-center h-100">
-              <img src="assets/about-me-demo.png" class="card-img-top h-50" alt="about-me-demo">
-              <section class="card-body">
-                <h5 class="card-title">Web Page</h5>
-                <p class="card-text">Simple design for an 'About Me' page using Bootstrap. Click to visit the GitHub repository or the launched page.</p>
-                <a href="https://github.com/nidaqg/demo-about-me" class="btn btn-outline-secondary">Go to GitHub</a>
-                <a href="https://nidaqg.github.io/demo-about-me/" class="btn btn-outline-secondary">Go to Page</a>
-
-              </section>
-            </section>
-          </section>
-        -->
         </section>
     </main>
              <!--Footer-->
              <footer class="footer mt-auto py-2">
-              <section class="card text-center text-white bg-dark">
+              <section class="card text-center text-white myColors">
                  <section class="card-body">
                   <h5 class="card-title">Connect with Me</h5>
-                  <a href="https://github.com/nidaqg"><i class="fab fa-github-square fa-3x" style="color: white;"></i></a>
-                  <a href="https://www.linkedin.com/in/nida-ghuman-7b8a6b1ba/"><i class="fab fa-linkedin fa-3x" style="color: white;"></i></a>
+                  <a href="https://github.com/nidaqg"><i class="fab fa-github-square fa-3x socialIcons mx-2" style="color: white;"></i></a>
+                  <a href="https://www.linkedin.com/in/nida-ghuman-7b8a6b1ba/"><i class="fab fa-linkedin fa-3x socialIcons mx-2" style="color: white;"></i></a>
                 </section>
               </section>
            </footer>
