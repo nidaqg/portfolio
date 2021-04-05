@@ -41,45 +41,36 @@
     </header>
 
    <main class="container-fluid bg-light flex-shrink-0 mt-3">
-         <!--row single centered column-->
-        <section class="row justify-content-center">
-          <section class="col-md-6">
+         <!--row with 2 columns column-->
+        <section class="row row-cols-1 row-cols-lg-2 g-4 m-4">
+
+          <section class="col">
          <!--How to connect with me info-->
-              <section class="card m-4 localCard">
-                <section class="card-body">
+              <section class="card m-4 localCard h-75">
+                <section class="card-body text-center">
                   <h5 class="text-center">Connect with Me</h5>
-                  <p>
-                    Connect on <b>LinkedIn</b> or <b>GitHub</b> from the links at the bottom of the page, email me at <b>nidaqg@gmail.com</b>, or fill out the contact form below!
+                  <p>Have a question for me? Please feel free to reach out to me with any questions or queries!</p>
+                  <p>Find my resume 
+                  <a href="assets/Nida-Ghuman-resume.pdf" download="nida-ghuman-resume" class="fst-italic link-dark">here</a>
                   </p>
                 </section>
               </section>
-        <!--contact form wrapped within a card -->
-            <form class="card m-4 localCard">
-             <section class="card-body">
-               <!--form input: Name-->
-                <section class="mb-3">
-                  <label for="Name" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="Name" placeholder="Name">
-                </section>
-                 <!--form input: Email address-->
-                <section class="mb-3">
-                  <label for="email-address" class="form-label">Email Address</label>
-                  <input type="email" class="form-control" id="email-address" placeholder="name@example.com">
-                </section>
-                <!--form input: Message content-->
-                <section class="mb-3">
-                  <label for="message-text" class="form-label">Message</label>
-                  <textarea class="form-control" id="message-text" placeholder="Message" rows="6"></textarea>
-                </section>
-                <!--form submit button-->
-                <section class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <button type="button" class="btn myBtn">Submit</button>
-                </section>
-             </section>  
-            </form>
-            <!--form ends here-->
+          </section>
+
+         <section class="col">
+          <section class="card m-4 localCard h-75">
+          <section class="card-body text-center">
+            <p>Connect with me on LinkedIn or GitHub:</p>
+            <a href="https://github.com/nidaqg"><i class="fab fa-github-square fa-2x socialIcons2 me-2" style="color: black;"></i></a>
+            <a href="https://www.linkedin.com/in/nida-ghuman-7b8a6b1ba/"><i class="fab fa-linkedin fa-2x socialIcons2" style="color: black;"></i></a>
+              <p class="mt-2">Or email me at <a href="mailto:nidaqg@gmail.com" target="_blank" class="link-dark socialIcons2">nidaqg@gmail.com</a></p>
+          </section>
           </section>
         </section>
+
+
+         </section>
+
         <!--second row ends here-->
    </main>
 

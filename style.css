@@ -23,3 +23,7 @@
     box-shadow: 5px 5px 5px rgba(247, 244, 244, 0.466);
 
 }
+
+.socialIcons2:hover {
+    box-shadow: 5px 5px 5px rgba(15, 1, 1, 0.466);
+}
